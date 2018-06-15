@@ -6,7 +6,7 @@
 //
 
 #import "UIAlertController+Addition.h"
-#import "MMUIKitConfig.h"
+#import "MMUIKitHeader.h"
 #import <objc/runtime.h>
 
 static char MMAlertControllerOperationKey[] = "MMAlertOperationKey";
