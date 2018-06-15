@@ -28,6 +28,27 @@
 
 @end
 
+UIKIT_STATIC_INLINE CGFloat mm_get_view_width(UIView * v){
+    return v.bounds.size.width;
+}
+
+UIKIT_STATIC_INLINE CGFloat mm_get_view_height(UIView * v){
+    return v.bounds.size.height;
+}
+
+UIKIT_STATIC_INLINE CGFloat mm_get_view_center_x(UIView * v){
+    return v.center.x;
+}
+
+UIKIT_STATIC_INLINE CGFloat mm_get_view_center_y(UIView * v){
+    return v.center.y;
+}
+
+UIKIT_STATIC_INLINE CGPoint mm_get_view_center(UIView * v){
+    return v.center;
+}
+
+
 UIKIT_STATIC_INLINE CGFloat mm_CGRectGetWidth(CGRect rect){
     return rect.size.width;
 }
