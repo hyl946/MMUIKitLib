@@ -6,7 +6,7 @@
 //
 
 #import "UILabel+Addition.h"
-#import "MMUIKitConfig.h"
+#import "MMUIKitHeader.h"
 
 @implementation UILabel (Addition)
 - (instancetype)initWithText:(NSString *)text textColor:(UIColor *)textColor textAlignment:(NSTextAlignment)textAlignment numberOfLines:(NSInteger)numberOfLines font:(UIFont *)font{
